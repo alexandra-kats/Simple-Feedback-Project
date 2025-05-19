@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Please leave a message</h1>
+        <form id="feedbackForm" method="POST"action="submit.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea> 
+
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
